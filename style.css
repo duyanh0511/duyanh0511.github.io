@@ -4,3 +4,9 @@ h1
     font-size: 2em;
     text-align: center;
 }
+
+/* Set background color */
+body
+{
+    background-color: rgb(153, 172, 147);
+}
