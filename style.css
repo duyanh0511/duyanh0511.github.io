@@ -1,12 +1,71 @@
-h1
+/* CSS Document */
+/* Style main-title */
+
+/* Variables */
+:root
 {
-    color: blue;
-    font-size: 2em;
-    text-align: center;
+    /* Color Variables */
+    --text-color: hsl(48, 43%, 91%);
+    --background-color: hsl(120, 3%, 6%);
+    --primary-color: hsl(106, 35%, 70%);
+    --secondary-color: hsl(133, 17%, 50%);
+    --accent-color: hsl(107, 74%, 62%);
+    
+
+    /* Margin Variables */
+    --margin-left: 60px;
 }
 
-/* Set background color */
 body
 {
-    background-color: rgb(153, 172, 147);
+    background-color: var(--background-color);
+}
+
+h1
+{
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 50px;
+}
+
+h2
+{
+    color: var(--text-color);
+    text-align: left;
+    font-size: 40px;
+    margin-left: var(--margin-left);
+}
+
+p
+{
+    color: var(--text-color);
+    font-size: 30px;
+    text-align: left;
+    margin-left: var(--margin-left);
+}
+
+button
+{
+    background : linear-gradient(to right, #c9fdff, #c55a08);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    margin: var(--margin-left);
+    cursor: pointer;
+}
+
+.weird-text
+{
+    background:linear-gradient(to right, #bea3eb, #99e3a4, #eff79d, #f9b3b3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#nightly
+{
+    color: rgb(53, 72, 73);
 }
